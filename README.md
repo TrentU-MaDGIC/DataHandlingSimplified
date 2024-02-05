@@ -9,8 +9,8 @@ Practical and Interactive: This session is designed to be engaging, with practic
 
 The directory contains the:
 
-* Script for students to work through with blanks (DataHandlingR.R)
-* Script for students to work through without blanks (DataHandlingR_Filled.R)
+* Script for students to work through with blanks (DataHandlingR.r)
+* Script for students to work through without blanks (DataHandlingR_Filled.r)
 * Slides presented (Slides_RBasics.pdf)
 * Custom reference sheet for concepts covered (Cheatsheet_DataHandlingR.pdf)
 * Data required to follow the scripts (Data directory)
