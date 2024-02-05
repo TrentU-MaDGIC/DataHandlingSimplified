@@ -225,7 +225,7 @@ rm(rda_file_load_message, rda_file_load_message0, test_env)
 # beginning of each section from the working directory
 
 ##### Challenge 1 #####
-# save(list = ls(), file = "load_files/Challenge1.rda")
+
 load("load_files/Challenge1.rda") 
 
 # Open and examine ChristmasBirdCount_2022_SelectCities.txt from file explorer
@@ -246,7 +246,7 @@ head(CBC_2022)
 str(CBC_2022)
 
 #### Combining Data Frames ####
-# save(list = ls(), file = "load_files/Combining_Data_Frames.rda")
+
 load("load_files/Combining_Data_Frames.rda") 
 
 # We will explore data manipulation through the dplyr package.
@@ -314,7 +314,7 @@ CBC_2019_2022 <- bind_rows(CBC_2019_2020, CBC_2021, CBC_2022)
 
 #### Combine columns ####
 rm(list = setdiff(ls(), "CBC_2019_2022")) # Clear unnecessary data
-# save(list = ls(), file = "load_files/Combine_columns.rda")
+
 load("load_files/Combine_columns.rda") 
 
 # We can also combine data by column, with bind_cols().
@@ -353,7 +353,7 @@ head(Birdspecific)
 
 #### Combine data by values ####
 rm(list = setdiff(ls(), "CBC_2019_2022")) 
-# save(list = ls(), file = "load_files/Combine_values.rda")
+
 load("load_files/Combine_values.rda") 
 
 # If row values between data frames do not match, 
@@ -409,7 +409,7 @@ nrow(CBC_data_joined)
 
 ##### Challenge 2 #####
 rm(list = setdiff(ls(), "CBC_data_joined")) 
-# save(list = ls(), file = "load_files/Challenge2.rda")
+
 load("load_files/Challenge2.rda") 
 
 # The AVONET data set 
@@ -430,7 +430,7 @@ head(CBC_wAvonet)
 
 #### Data Frame Manipulation ####
 rm(list = setdiff(ls(), "CBC_wAvonet")) # Remove unnecessary data 
-# save(list = ls(), file = "load_files/Dataframe_Manipulation.rda")
+
 load("load_files/Dataframe_Manipulation.rda") 
 
 #### Subsets and sorting ####
@@ -477,7 +477,7 @@ head(columm_remove)
 
 ##### Subset rows #####
 rm(list = setdiff(ls(), "CBC_data")) # Remove unnecessary data 
-# save(list = ls(), file = "load_files/Dataframe_Subsetrows.rda")
+
 load("load_files/Dataframe_Subsetrows.rda") # Load the expected R environment for the Data frame manipulation section
 
 # One of the most common operations when handling data, 
@@ -563,7 +563,7 @@ head(CBC_data_arranged)
 
 ##### Sub-setting and sorting: Putting it together #####
 rm(list = setdiff(ls(), "CBC_data_arranged")) 
-# save(list = ls(), file = "load_files/SubsettingSort_Steps.rda")
+
 load("load_files/SubsettingSort_Steps.rda") 
 
 # select(), filter(), and arrange() can be used together to answer 
@@ -594,7 +594,7 @@ Step3
 
 ##### Challenge 3 #####
 rm(list = setdiff(ls(), "CBC_data_arranged")) # Remove unnecessary data 
-# save(list = ls(), file = "load_files/Challenge3.rda")
+
 load("load_files/Challenge3.rda") # Load the necessary R environment for Challenge 3
 
 # Using the three step process as demonstrated above, determine:
@@ -623,7 +623,7 @@ nrow(Step3)
 
 #### Add or alter columns ####
 rm(list = setdiff(ls(), "CBC_data_arranged")) # Remove unnecessary data
-# save(list = ls(), file = "load_files/Add_alter_col.rda")
+
 load("load_files/Add_alter_col.rda") # Load the necessary R environment for the Add or alter columns section
 
 # Often we need to create new columns from existing columns.
@@ -672,7 +672,7 @@ tail(CBC_data_cleaned)
 
 ###### Challenge 4 ##### 
 rm(list = setdiff(ls(), "CBC_data_cleaned")) # Remove unnecessary data
-# save(list = ls(), file = "load_files/Challenge4.rda")
+
 load("load_files/Challenge4.rda") # Load the necessary R environment for Challenge 4
 
 # Using mutate(), which code would a new column, **Count_Sq**, 
@@ -686,7 +686,7 @@ load("load_files/Challenge4.rda") # Load the necessary R environment for Challen
 
 #### Piping ####
 rm(list = setdiff(ls(), "CBC_data_cleaned"))
-# save(list = ls(), file = "load_files/Piping.rda")
+
 load("load_files/Piping.rda") 
 
 # Recall the filter-select-arrange example from earlier:
@@ -723,7 +723,7 @@ Step3
 
 #### Aggregating data ####
 rm(list = setdiff(ls(), "CBC_data_cleaned")) # Remove unnecessary data
-# save(list = ls(), file = "load_files/Aggregating.rda")
+
 load("load_files/Aggregating.rda") # Load the necessary R environment for the Aggregating section
 
 # Aggregating data allows us to calculate metrics across or within groups.
@@ -761,7 +761,7 @@ CBC_data_cleaned %>%
 
 ###### Challenge 5 ##### 
 rm(list = setdiff(ls(), "CBC_data_cleaned")) # Remove unnecessary data
-# save(list = ls(), file = "load_files/Challenge5.rda")
+
 load("load_files/Challenge6.rda") # Load the necessary R environment for Challenge 6
 
 # What is the correct code to produce a summary table of average 
@@ -781,7 +781,7 @@ load("load_files/Challenge6.rda") # Load the necessary R environment for Challen
 #### Export files ####
 
 rm(list = setdiff(ls(), c("CBC_data_cleaned")))
-# save(list = ls(), file = "load_files/Export.rda")
+
 load("load_files/Export.rda") 
 
 # Let's create a data frame detailing a summary of:
