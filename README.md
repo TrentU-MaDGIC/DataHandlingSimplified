@@ -17,4 +17,5 @@ The directory contains the:
   + Select data from the [Christmas Bird Count](https://netapp.audubon.org/cbcobservation/)
   + Simplified data from [AVONET](https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13898) providing morphological, ecological and geographical data for birds
   + Load files for each part of the workshop to allow students to start from any section
+
 If you have any questions, please get in touch with madgichelp@trentu.ca.
