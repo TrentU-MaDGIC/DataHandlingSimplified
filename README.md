@@ -1,4 +1,4 @@
-# R Programming Basics: A User-Friendly Introduction
+# R Data Handling Simplified
 Ready to take your R skills to the next level? This workshop is tailored for students with some R experience, looking to enhance their data manipulation abilities.
 
 Master Data Manipulation with dplyr: Learn how to reshape and adjust data using the dplyr package.
