@@ -11,7 +11,7 @@ The directory contains the:
 
 * Script for students to work through with blanks (DataHandlingR.r)
 * Script for students to work through without blanks (DataHandlingR_Filled.r)
-* Slides presented (Slides_RBasics.pdf)
+* Slides presented (Slides_DataHandlingR.pdf)
 * Custom reference sheet for concepts covered (Cheatsheet_DataHandlingR.pdf)
 * Data required to follow the scripts (Data directory)
   + Select data from the [Christmas Bird Count](https://netapp.audubon.org/cbcobservation/)
